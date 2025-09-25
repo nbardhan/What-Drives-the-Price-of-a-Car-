@@ -66,13 +66,7 @@ The goal of this project is to predict car prices from available features using 
 
 	•	Predicts mean training price for all cars.
 
-	•	Models Trained
-
-	•	Multiple Linear Regression
-
-	•	Ridge Regression (regularized linear regression)
-
-	•	Lasso Regression (feature selection + regularization)
+	•	Linear Regression & Lasso Regression (feature selection)
 
 	•	Cross-Validation & Hyperparameter Tuning
 
