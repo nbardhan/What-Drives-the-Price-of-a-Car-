@@ -43,15 +43,25 @@ The goal of this project is to predict car prices from available features using 
 ⸻
 
 ⚙️ Data Preparation
+
 	1.	Dropped irrelevant columns
+
 	•	id, VIN, and other identifiers with no predictive power.
+
 	2.	Handled missing data
+
 	•	Kept missing rows but filled categorical NAs with "unknown".
+
 	•	Left year and odometer missing values minimal (<1% of dataset).
+
 	3.	Encoded categorical variables
+
 	•	Used one-hot encoding (pd.get_dummies) to transform text labels into numeric features.
+
 	4.	Defined features/target
+
 	•	X = all features (encoded)
+	
 	•	y = price
 
 ⸻
@@ -86,7 +96,7 @@ The goal of this project is to predict car prices from available features using 
 
 	•	Compared all models against the baseline.
 
-	•	Ridge and Lasso were used to reduce overfitting and identify most important predictors.
+	•	Lasso was used to also identify most important predictors on top of LinReg.
 
 
 ⸻
